@@ -9,7 +9,7 @@ It's messy, and could probably do without pandas, but it's provided here in case
 
 - Uses [wmctrl](https://linux.die.net/man/1/wmctrl) to get & set the window settings (most importantly **"id", "gravity", "X", "Y", "width", "height"**).
 - Uses a [pandas](https://pandas.pydata.org/) DataFrame to keep the window settings in memory.
-- Saves the window settings to a csv ("~/Desktop/savedwindows.csv" if no command line parameters, otherwise it formats the string like this: f"~/Desktop/savedwindows{part}.csv")
+- Saves the window settings to a csv ("\~/Desktop/savedwindows.csv" if no command line parameters, otherwise it formats the string like this: f"\~/Desktop/savedwindows{part}.csv")
 
 **loadwindows.py**
 
